@@ -191,12 +191,13 @@ main {
 }
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-between;
+    column-gap:5px;
     justify-items: center;
 }
 .video{
-    width:85%;
+    width:100%;
     margin-bottom:40px;
     cursor: pointer;
 }
